@@ -1,0 +1,71 @@
+@font-face{
+	font-family: KeepClam;
+	src:url(../KeepCalm-Medium.ttf) format("truetype");
+}
+body{
+	background-color: #f8f8f8;
+	font-family: KeepClam;
+}
+.mynavbar{
+	background-color: #00666A;
+	height: 45px;
+	width: 100%;
+}
+.mynavbar ul{
+	float: right;
+}
+.mynavbar ul li{
+	list-style: none;
+	float: left;
+	padding: 12px 10px;
+}
+.mynavbar ul li a{
+	color: #fff;
+	font-size: 15px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.mynavbar ul li a:hover{
+	text-decoration: none;
+	color: #FF7043;
+}
+.mynavbar ul ul{
+	position: absolute;
+	background-color: #00666A;
+	padding-left: 0px;
+	margin-left: 0px;
+	padding-top: 12px;
+	display: none;
+	z-index: 1;
+	width: 140px;
+}
+.mynavbar ul ul li{
+	display: block;
+	float: none;
+	margin-top: 0px;
+	text-align: left;
+
+	border-top: 1px solid #ddd;
+	padding: 8px 15px;
+
+}
+.mynavbar ul ul li a{
+	text-align: left;
+	padding: 6px 0px;
+	display: block;
+	
+}
+.mynavbar ul li:hover > ul{
+	display: block;
+}
+.mynavbar ul ul ul{
+	position: absolute;
+	left: 100%;
+	padding-top: 0px;
+	margin-top: -42.5px;
+	background-color: green;
+}
+.mylogo{
+	width: 15%;
+	height: 45px;
+}
